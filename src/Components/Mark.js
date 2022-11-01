@@ -1,5 +1,6 @@
 import { useState } from "react";
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
+	import remarkGfm from "remark-gfm";
 
 function Mark() {
     const [markdown, setMarkdown] = useState("");
@@ -16,7 +17,7 @@ function Mark() {
 
 
             <div className="preview">
-                <ReactMarkdown children={markdown} />
+                <ReactMarkdown children={markdown}  remarkPlugins={[remarkGfm]}/>
             </div>
         </div>
     );
