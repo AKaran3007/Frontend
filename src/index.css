@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 
 body {
-  background-color: grey !important;
+  background-color:darksalmon !important;
   font-family: 'Hind', Arial, Helvetica, sans-serif;
 }
 
@@ -122,11 +122,11 @@ html,
   text-align: right;
   font-size: 13px;
   padding-top: 10px;
-  color: #7f7d7d;
+  color: blue;
   margin: 0;
 }
 
 .forgot-password a {
-  color: grey;
+  color: black;
 }
 

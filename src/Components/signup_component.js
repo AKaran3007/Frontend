@@ -14,7 +14,7 @@ export default class SignUp extends Component {
     handleSubmit(e){
         e.preventDefault()
         const {fname,lname,email,password} = this.state;
-        console.log(fname,lname,email,password)
+    
         fetch("http://localhost:5000/register" , {
             method:"POST",
             crossDomain:true,
@@ -84,7 +84,7 @@ export default class SignUp extends Component {
           </button>
         </div>
         <p className="forgot-password text-right">
-          Already registered <a href="/sign-in">sign in?</a>
+          Already registered <a href="/">sign in?</a>
         </p>
       </form>
       </div>
