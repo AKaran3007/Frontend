@@ -37,6 +37,8 @@ export default class SignUp extends Component {
     }
   render() {
     return (
+      <div className="auth-wrapper">
+      <div className="auth-inner">
       <div className='container'>
         <form onSubmit={this.handleSubmit}>
         <h3>Sign Up</h3>
@@ -88,6 +90,9 @@ export default class SignUp extends Component {
         </p>
       </form>
       </div>
+        </div>
+        </div>
+     
     )
   }
 }

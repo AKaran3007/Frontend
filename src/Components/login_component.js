@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Login extends Component {
+ 
   constructor(props){
     super(props)
     this.state={
@@ -31,6 +32,11 @@ export default class Login extends Component {
         }).then ((res) => res.json())
         .then((data) => {
             console.log(data , "User Registered")
+            if(data.status == "ok") {
+              alert("Login Successful");
+              window.localStorage.setItem("token" , data.data);
+              window.location.href="./userdetails"
+            }
         })
 
 
@@ -38,7 +44,9 @@ export default class Login extends Component {
 
   render() {
     return (
-     <div className='container'>
+     <div className="auth-wrapper">
+      <div className="auth-inner">
+      <div className='container'>
        <form onSubmit={this.handleSubmit}>
         <h3>Sign In</h3>
 
@@ -84,6 +92,9 @@ export default class Login extends Component {
           Forgot <a href="#">password?</a>
         </p>
       </form>
+     </div>
+      </div>
+
      </div>
     )
   }
