@@ -19,18 +19,22 @@ function Mark() {
 
             <div className="container-fluid">
 
-                <nav className="navbar navbar-light bg-light container-fluid">
-                    <b width="40" height="40"> &nbsp; MarkDown Viewer </b> ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a className="navbar-brand" href="/">
-
-
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJ0t2IzN6HxZ9azvgYaINgfYYIlnEqNm5Y4CZRNdk-ysFXr3UpRNL5LlBJGEAweHwHb4&usqp=CAU"
-                            width="30" height="30" class="d-inline-block align-top" alt="" />
-
-                    </a>
-
-
-                </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> Markdown Viewer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/rules">Syntax</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
                 <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
 
