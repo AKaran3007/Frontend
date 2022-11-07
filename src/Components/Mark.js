@@ -25,7 +25,7 @@ function Mark() {
 
 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJ0t2IzN6HxZ9azvgYaINgfYYIlnEqNm5Y4CZRNdk-ysFXr3UpRNL5LlBJGEAweHwHb4&usqp=CAU"
-                            width="40" height="40" class="d-inline-block align-top" alt="" />
+                            width="30" height="30" class="d-inline-block align-top" alt="" />
 
                     </a>
 
