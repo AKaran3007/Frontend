@@ -15,7 +15,7 @@ export default class Reset extends Component {
         const { email } = this.state;
         console.log(email);
 
-        fetch("http://localhost:5000/forgot-password", {
+        fetch("https://capstonemarkup.herokuapp.com/forgot-password", {
             method: "POST",
             crossDomain: true,
             headers: {
@@ -63,11 +63,11 @@ export default class Reset extends Component {
                             </div>
                             <span className="forgot-password text-right">
                                 New User? &nbsp;
-                               <a href="/signup">Sign Up</a>
+                                <a href="/signup">Sign Up</a>
                             </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <span className="forgot-password text-right">
                                 Already User? &nbsp;
-                               <a href="/signin">Sign In</a>
+                                <a href="/signin">Sign In</a>
                             </span>
                         </form>
                     </div>

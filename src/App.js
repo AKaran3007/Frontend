@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import UserDetails from './Components/userDetails';
 import Reset from './Components/reset';
+import Rules from "./Components/rules";
+
 
 
 
@@ -17,19 +19,20 @@ function App() {
     <>
       <BrowserRouter>
         <div className="App">
-          
-              <Routes>
-                <Route exact path="/" element={<Login />}></Route>
-                <Route path="/signin" element={<Login />}></Route>
-                <Route path="/signup" element={<SignUp />}></Route>
-                <Route path="/markup" element={<Mark />}></Route>
-                <Route path="/userdetails" element={<UserDetails />}></Route>
-                <Route path="/reset" element={<Reset />}></Route>
-              </Routes>
-            
+
+          <Routes>
+            <Route exact path="/" element={<Login />}></Route>
+            <Route path="/signin" element={<Login />}></Route>
+            <Route path="/signup" element={<SignUp />}></Route>
+            <Route path="/markup" element={<Mark />}></Route>
+            <Route path="/userdetails" element={<UserDetails />}></Route>
+            <Route path="/reset" element={<Reset />}></Route>
+            <Route path="/rules" element={<Rules />}></Route>
+          </Routes>
+
 
         </div>
-        
+
       </BrowserRouter>
 
 

@@ -16,7 +16,7 @@ export default class Login extends Component {
     const { email, password } = this.state;
     console.log(email, password);
 
-    fetch("http://localhost:5000/login-user", {
+    fetch("https://capstonemarkup.herokuapp.com/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {
@@ -69,19 +69,6 @@ export default class Login extends Component {
                   placeholder="Enter password"
                   onChange={(e) => this.setState({ password: e.target.value })}
                 />
-              </div>
-
-              <div className="mb-3">
-                <div className="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    className="custom-control-input"
-                    id="customCheck1"
-                  />
-                  <label className="custom-control-label" htmlFor="customCheck1">
-                    Remember me
-                  </label>
-                </div>
               </div>
 
               <div className="d-grid">
