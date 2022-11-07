@@ -35,6 +35,9 @@ export default class UserDetails extends Component {
             <div>
                 Name<h1>{this.state.userData.fname}</h1>
                 Email<h1>{this.state.userData.email}</h1>
+
+                
+<a href="/markup" className='ab'> <b>Markup Viewer</b></a>
                 
             </div>
         )

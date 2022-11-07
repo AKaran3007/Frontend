@@ -5,6 +5,7 @@ import SignUp from "./Components/signup_component";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import UserDetails from './Components/userDetails';
+import Reset from './Components/reset';
 
 
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/signup" element={<SignUp />}></Route>
                 <Route path="/markup" element={<Mark />}></Route>
                 <Route path="/userdetails" element={<UserDetails />}></Route>
+                <Route path="/reset" element={<Reset />}></Route>
               </Routes>
             
 
