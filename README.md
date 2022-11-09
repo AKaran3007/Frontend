@@ -10,7 +10,10 @@
 
 ## someof the images
 
-<h3>Login Page</h3>
-![login](https://user-images.githubusercontent.com/107174673/200790464-824f5577-f1a5-4d18-ade7-053aa991c2ed.png)
+### `LogIn Page`
+![login](https://user-images.githubusercontent.com/107174673/200791223-c723195c-7eca-4cda-b8eb-e5019577a221.png)
 
+
+### `Register Page`
+![signup](https://user-images.githubusercontent.com/107174673/200791203-bd2b7c7d-8386-42a5-8d0f-6a19dba1893b.png)
 
