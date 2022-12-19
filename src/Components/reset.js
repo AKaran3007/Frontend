@@ -10,12 +10,14 @@ export default class Reset extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    
+
     handleSubmit(e) {
         e.preventDefault()
         const { email } = this.state;
         console.log(email);
 
-        fetch("https://capstonemarkup.herokuapp.com/forgot-password", {
+        fetch("https://markdown-backend-kia7.vercel.app/forgot-password", {
             method: "POST",
             crossDomain: true,
             headers: {
@@ -33,6 +35,7 @@ export default class Reset extends Component {
                 alert("Please check the registerd mail");
 
             });
+
 
 
     }

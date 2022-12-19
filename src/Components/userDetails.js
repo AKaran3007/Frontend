@@ -11,7 +11,7 @@ export default class UserDetails extends Component {
 
 
     componentDidMount() {
-        fetch("https://capstonemarkup.herokuapp.com/userData", {
+        fetch("https://markdown-backend-kia7.vercel.app/userData", {
             method: "POST",
             crossDomain: true,
             headers: {

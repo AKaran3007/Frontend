@@ -16,7 +16,7 @@ export default class Login extends Component {
     const { email, password } = this.state;
     console.log(email, password);
 
-    fetch("https://capstonemarkup.herokuapp.com/login-user", {
+    fetch("https://markdown-backend-kia7.vercel.app/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {
