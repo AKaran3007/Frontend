@@ -17,7 +17,7 @@ export default class Reset extends Component {
         const { email } = this.state;
         console.log(email);
 
-        fetch("https://markdown-backend-kia7-q1uua1ge3-akaran3007.vercel.app/forgot-password", {
+        fetch("https://markdown-backend-kia7-g2ohyfn1r-akaran3007.vercel.app/forgot-password", {
             method: "POST",
             crossDomain: true,
             headers: {

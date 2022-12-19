@@ -15,7 +15,7 @@ export default class SignUp extends Component {
     e.preventDefault()
     const { fname, lname, email, password } = this.state;
 
-    fetch("https://markdown-backend-kia7-q1uua1ge3-akaran3007.vercel.app/register", {
+    fetch("https://markdown-backend-kia7-g2ohyfn1r-akaran3007.vercel.app/register", {
       method: "POST",
       crossDomain: true,
       headers: {

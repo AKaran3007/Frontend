@@ -11,7 +11,7 @@ export default class UserDetails extends Component {
 
 
     componentDidMount() {
-        fetch("https://markdown-backend-kia7-q1uua1ge3-akaran3007.vercel.app/userData", {
+        fetch("https://markdown-backend-kia7-g2ohyfn1r-akaran3007.vercel.app/userData", {
             method: "POST",
             crossDomain: true,
             headers: {
