@@ -30,7 +30,7 @@ function Mark() {
                             <a class="nav-link" href="/rules"><b>Syntax</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/"><b>Log Out</b></a>
+                            <a class="nav-link" href="/"><b>Home</b></a>
                         </li>
                     </ul>
                 </div>

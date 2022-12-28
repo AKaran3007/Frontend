@@ -35,8 +35,7 @@ export default class UserDetails extends Component {
             <div className='auth-wrapper'>
                 <div className='auth-inner'>
                     <div className='center'>
-                        Name<h1>{this.state.userData.fname}</h1>
-                        Email<h1>{this.state.userData.email}</h1>
+                        <i><h1><b>React Markdown Viewer</b></h1></i>
 
 
                         <a href="/markup" className='ab'> <b>React MarkDown Viewer</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

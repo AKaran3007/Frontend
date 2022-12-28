@@ -21,12 +21,12 @@ function App() {
         <div className="App">
 
           <Routes>
-            <Route exact path="/" element={<Login />}></Route>
+            {/* <Route exact path="/" element={<Login />}></Route>
             <Route path="/signin" element={<Login />}></Route>
-            <Route path="/signup" element={<SignUp />}></Route>
+            <Route path="/signup" element={<SignUp />}></Route> */}
             <Route path="/markup" element={<Mark />}></Route>
-            <Route path="/userdetails" element={<UserDetails />}></Route>
-            <Route path="/reset" element={<Reset />}></Route>
+            <Route path="/" element={<UserDetails />}></Route>
+            {/* <Route path="/reset" element={<Reset />}></Route> */}
             <Route path="/rules" element={<Rules />}></Route>
           </Routes>
 

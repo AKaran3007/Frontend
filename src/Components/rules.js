@@ -14,7 +14,7 @@ function Rules() {
                             <a class="nav-link" href="/markup">Mark Down</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Log Out</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                     </ul>
                 </div>
